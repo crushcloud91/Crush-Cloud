@@ -1,0 +1,6 @@
+#!name=Crush Cloud DNS
+#!desc=Crush Cloud DNS
+
+[Host]
+ccccssss.node.daacc.org = server:https://dns.daacc.org/dns-query
+ccc1111.node.daacc.org = server:https://dns.daacc.org/dns-query
