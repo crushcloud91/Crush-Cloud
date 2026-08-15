@@ -2,13 +2,11 @@ name: Crush Cloud DNS
 description: Crush Cloud DNS
 
 dns:
-  upstreams:
-    crush_cloud_dns:
-      - https://dns.daacc.org/dns-query
   forward:
     - domain:
-        match: ccccssss.node.daacc.org
-        value: crush_cloud_dns
+        match: "ccccssss.node.daacc.org"
+        value: "https://dns.daacc.org/dns-query"
+
     - domain:
-        match: ccc1111.node.daacc.org
-        value: crush_cloud_dns
+        match: "ccc1111.node.daacc.org"
+        value: "https://dns.daacc.org/dns-query"
