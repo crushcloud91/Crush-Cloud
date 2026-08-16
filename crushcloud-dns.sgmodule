@@ -2,4 +2,4 @@
 #!desc=Crush Cloud DNS
 
 [Host]
-*.node.daacc.org = server:https://ddhjiadji6959dadaa.daacc.org
+*.node.daacc.org = server:https://ddhjiadji6959dadaa.daacc.org/dns-query
