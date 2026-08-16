@@ -11,6 +11,7 @@
 | ⚡ Surge | `crushcloud-dns.sgmodule` |
 | 🐱 Egern | `crushcloud-dns.egmodule.yaml` |
 | 🚀 Loon | `crushcloud-dns.plugin` |
+| 🔵 Quantumult X | 手动添加至配置文件 |
 
 ## 🔗 使用地址
 
@@ -26,10 +27,18 @@ https://raw.githubusercontent.com/crushcloud91/Crush-Cloud/main/crushcloud-dns.e
 
 https://raw.githubusercontent.com/crushcloud91/Crush-Cloud/main/crushcloud-dns.plugin
 
+### Quantumult X
+
+在配置文件 `[dns]` 段中添加：
+
+```
+doh-server = /*.node.daacc.org/https://ddhjiadji6959dadaa.daacc.org/dns-query
+```
+
 ## 📝 说明
 
 - 提供 Crush Cloud DNS 配置
-- 支持 Surge / Egern / Loon
+- 支持 Surge / Egern / Loon / Quantumult X
 - 配置文件将持续维护更新
 
 ---
