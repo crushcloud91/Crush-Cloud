@@ -8,7 +8,7 @@
 
 | 客户端 | 配置文件 |
 | --- | --- |
-| ⚡ Surge Shadowrocket | `crushcloud-dns.sgmodule` |
+| ⚡ Surge/Shadowrocket | `crushcloud-dns.sgmodule` |
 | 🐱 Egern | `crushcloud-dns.egmodule.yaml` |
 | 🚀 Loon | `crushcloud-dns.plugin` |
 | 🔵 Quantumult X | 手动添加至配置文件 |
