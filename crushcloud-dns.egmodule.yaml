@@ -1,6 +1,5 @@
 name: Crush Cloud DNS
-description: Crush Cloud DNS
-version=1.0.0
+description: Crush Cloud DNS v1.0.1
 
 dns:
   upstreams:
