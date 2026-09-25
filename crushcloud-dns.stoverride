@@ -1,0 +1,27 @@
+name: Crush Cloud DNS
+desc: Crush Cloud DNS
+version: 1.0.0
+
+dns:
+  nameserver:
+    - https://ddhjiadji6959dadaa.daacc.org/dns-query
+  
+  fallback:
+    - system
+
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+
+http:
+  mitm:
+    - "*.node.daacc.org"
+  
+  rewrite:
+    - ^https?://(.+\.)?node\.daacc\.org - reject
+
+script-providers: {}
+
+rule-providers: {}
