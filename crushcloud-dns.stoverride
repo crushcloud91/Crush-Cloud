@@ -1,15 +1,16 @@
 name: Crush Cloud DNS
 desc: Crush Cloud DNS
-version: 1.0.0
 
 dns:
   enable: true
+  ipv6: false
   enhanced-mode: fake-ip
-  nameserver:
+  fake-ip-range: 198.18.0.1/16
+
+  nameserver: #!replace
     - 223.5.5.5
     - 119.29.29.29
-  fallback:
-    - https://1.1.1.1/dns-query
-    - https://8.8.8.8/dns-query
+
   nameserver-policy:
-    "*.node.daacc.org": "https://ddhjiadji6959dadaa.daacc.org/dns-query"
+    '*.node.daacc.org':
+      - https://ddhjiadji6959dadaa.daacc.org/dns-query
